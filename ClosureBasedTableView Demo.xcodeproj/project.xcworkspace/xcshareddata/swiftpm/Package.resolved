@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ClosureBasedTableViewKit",
+        "repositoryURL": "https://github.com/magesteve/ClosureBasedTableViewKit.git",
+        "state": {
+          "branch": null,
+          "revision": "0bcb96262bca520d42814af6075c2d7bd19d42f8",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
