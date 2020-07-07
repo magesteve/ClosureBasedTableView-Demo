@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,7 @@
 		41B7065E24B41D3E00AB5CB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B7065D24B41D3E00AB5CB9 /* ViewController.swift */; };
 		41B7066024B41D4000AB5CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B7065F24B41D4000AB5CB9 /* Assets.xcassets */; };
 		41B7066324B41D4000AB5CB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B7066124B41D4000AB5CB9 /* Main.storyboard */; };
+		41B7066D24B41D7500AB5CB9 /* ClosureBasedTableViewKit in Frameworks */ = {isa = PBXBuildFile; productRef = 41B7066C24B41D7500AB5CB9 /* ClosureBasedTableViewKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41B7066D24B41D7500AB5CB9 /* ClosureBasedTableViewKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +81,9 @@
 			dependencies = (
 			);
 			name = "ClosureBasedTableView Demo";
+			packageProductDependencies = (
+				41B7066C24B41D7500AB5CB9 /* ClosureBasedTableViewKit */,
+			);
 			productName = "ClosureBasedTableView Demo";
 			productReference = 41B7065824B41D3E00AB5CB9 /* ClosureBasedTableView Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -107,6 +112,9 @@
 				Base,
 			);
 			mainGroup = 41B7064F24B41D3E00AB5CB9;
+			packageReferences = (
+				41B7066B24B41D7500AB5CB9 /* XCRemoteSwiftPackageReference "ClosureBasedTableViewKit" */,
+			);
 			productRefGroup = 41B7065924B41D3E00AB5CB9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -327,6 +335,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		41B7066B24B41D7500AB5CB9 /* XCRemoteSwiftPackageReference "ClosureBasedTableViewKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/magesteve/ClosureBasedTableViewKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		41B7066C24B41D7500AB5CB9 /* ClosureBasedTableViewKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41B7066B24B41D7500AB5CB9 /* XCRemoteSwiftPackageReference "ClosureBasedTableViewKit" */;
+			productName = ClosureBasedTableViewKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 41B7065024B41D3E00AB5CB9 /* Project object */;
 }
